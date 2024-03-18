@@ -1,7 +1,7 @@
 export default function Download() {
   return (
     <div className="Download my-11 px-4">
-      <div className="container mx-auto items-center rounded-lg flex justify-between">
+      <div className="Dcontainer mx-auto items-center rounded-lg flex justify-between	">
         <div className="text-white p-12 ">
           <h2 className=" text-3xl font-bold mb-3">Getir'i indir!</h2>
           <p className="font-semibold">
