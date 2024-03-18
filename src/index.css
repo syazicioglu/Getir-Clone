@@ -3,22 +3,25 @@
 @tailwind utilities;
 
 * {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-family: inherit;
 }
 
+.container {
+  max-width: 1250px;
+}
 .Navbar {
   background-color: rgb(76, 51, 152);
 }
 
-.Navbar .priaority {
+.Navbar .priority {
   background-color: #5d3ebc;
 }
 
-.Navbar li:hover {
+.Navbar .rounded-t-md:hover {
   background-color: #5d3ebc;
 }
 
-.Navbar img:not(.priaorityImg) {
+.Navbar img:not(.priorityImg) {
   filter: brightness(0) invert(1);
   opacity: 0.8;
 }
@@ -26,4 +29,9 @@
 .navIcon a {
   color: rgb(219, 219, 255);
   font-size: 14px;
+}
+
+.Download .container {
+  background-image: url(https://cdn.getir.com/getirweb-images/common/illustration/doodle.png);
+  background-color: rgb(93, 62, 188);
 }
