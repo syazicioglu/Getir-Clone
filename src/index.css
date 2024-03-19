@@ -38,6 +38,24 @@
 }
 
 .Download .Dcontainer {
-  background-image: url(https://cdn.getir.com/getirweb-images/common/illustration/doodle.png);
   background-color: rgb(93, 62, 188);
+}
+
+.bgcarousel::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, transparent 0%, rgb(93, 62, 188) 100%);
+  z-index: 1;
+}
+
+.select-flag button {
+  border: 2px solid gainsboro;
+}
+
+.select-flag button:focus {
+  border: 2px solid rgb(76, 51, 152);
 }

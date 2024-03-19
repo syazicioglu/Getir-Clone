@@ -1,14 +1,14 @@
 export default function Download() {
   return (
-    <div className="Download my-11 px-4">
-      <div className="Dcontainer mx-auto items-center rounded-lg flex justify-between	">
-        <div className="text-white p-12 ">
+    <div className="Download my-11 md:px-4">
+      <div className="Dcontainer mx-auto md:items-center md:rounded-lg flex justify-between bg-none md:bg-[url('https://cdn.getir.com/getirweb-images/common/illustration/doodle.png')]">
+        <div className="text-white p-4 md:p-12 ">
           <h2 className=" text-3xl font-bold mb-3">Getir'i indir!</h2>
           <p className="font-semibold">
             İstediğiniz ürünleri dakikalar içinde kapınıza <br />
             getirelim.
           </p>
-          <div className="flex gap-x-2 mt-8">
+          <div className="grid md:flex gap-y-2 gap-x-2 mt-3 md:mt-8">
             <a href="#">
               <img
                 alt=""
@@ -29,7 +29,7 @@ export default function Download() {
             </a>
           </div>
         </div>
-        <div className="mt-6">
+        <div className="hidden md:flex mt-6">
           <img
             alt=""
             src="https://cdn.getir.com/getirweb-images/common/landing/phoneLanding.png"

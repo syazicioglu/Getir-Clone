@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import ReactFlagsSelect from "react-flags-select";
 
 export default function BGCarousel() {
+  const [selected, setSelected] = useState("TR");
+
+  const ulkeKod = {
+    TR: "+90",
+    GB: "+44",
+    US: "+1",
+    NL: "+31",
+    DE: "+49",
+    FR: "+33",
+    ES: "+34",
+    IT: "+39",
+  };
+
   const settings = {
     dots: false,
     infinite: true,
@@ -40,8 +54,8 @@ export default function BGCarousel() {
   ];
 
   return (
-    <div className="bgcarousel overflow-hidden">
-      <div className="w-full h-auto">
+    <div className="bgcarousel overflow-hidden h-[500px] relative">
+      <div className="w-full block ">
         <Slider {...settings}>
           {slidesData.map((slide) => (
             <div key={slide.id}>
@@ -55,6 +69,35 @@ export default function BGCarousel() {
             </div>
           ))}
         </Slider>
+        <div className="container flex justify-between items-center absolute top-0 left-1/2 -translate-x-1/2 h-full z-20">
+          <div className="pl-4">
+            <img
+              className="h-[180px] w-[180px]"
+              alt=""
+              src="https://getir.com/_next/static/images/bimutluluk-b3a7fcb14fc9a9c09b60d7dc9b1b8fd6.svg"
+            />
+            <h1 className="mt-9  text-white text-4xl font-semibold ">
+              Dakikalar içinde kapında
+            </h1>
+          </div>
+          <div className="w-[400px] rounded-lg bg-gray-50 p-6">
+            <h1
+              className="text-center font-semibold"
+              style={{ color: "rgb(76, 51, 152)" }}
+            >
+              Giriş yap veya kayıt ol
+            </h1>
+            <div className="flex ">
+              <ReactFlagsSelect
+                className="select-flag"
+                countries={["TR", "US", "GB", "FR", "DE", "IT", "NL", "ES"]}
+                customLabels={ulkeKod}
+                selected={selected}
+                onSelect={(code) => setSelected(code)}
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
