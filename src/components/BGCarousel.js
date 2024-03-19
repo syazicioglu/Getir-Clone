@@ -54,7 +54,7 @@ export default function BGCarousel() {
   ];
 
   return (
-    <div className="bgcarousel overflow-hidden h-40 md:h-[500px] relative">
+    <div className="bgcarousel md:overflow-hidden h-auto md:h-[500px] md:relative">
       <div className="w-full block">
         <Slider {...settings}>
           {slidesData.map((slide) => (
@@ -66,8 +66,8 @@ export default function BGCarousel() {
             </div>
           ))}
         </Slider>
-        <div className="container flex md:justify-between md:items-center absolute top-0 left-1/2 -translate-x-1/2 h-full z-20">
-          <div className="hidden md:block pl-4">
+        <div className="container flex md:justify-between md:items-center md:absolute md:top-0 md:left-1/2 md:-translate-x-1/2 md:h-full z-20">
+          <div className="hidden md:block md:pl-4 ">
             <img
               className="h-[180px] w-[180px]"
               alt=""
@@ -77,9 +77,9 @@ export default function BGCarousel() {
               Dakikalar içinde kapında
             </h1>
           </div>
-          <div className=" w-full md:w-[400px]  rounded-lg bg-gray-50  md:p-5">
+          <div className=" w-full md:w-[400px]  md:rounded-lg bg-gray-50  px-5 py-5 md:mr-4">
             <h1
-              className="text-center font-semibold pt-6 md:pt-0 pb-3"
+              className="text-center font-semibold pb-2 md:pb-4"
               style={{ color: "rgb(76, 51, 152)" }}
             >
               Giriş yap veya kayıt ol

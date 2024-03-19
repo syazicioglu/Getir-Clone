@@ -10,11 +10,6 @@
   max-width: 1250px;
 }
 
-.Dcontainer {
-  width: 1240px;
-  height: 312px;
-}
-
 .Navbar {
   background-color: rgb(76, 51, 152);
 }
@@ -37,7 +32,7 @@
   font-size: 14px;
 }
 
-.Download .Dcontainer {
+.Download .container {
   background-color: rgb(93, 62, 188);
 }
 
@@ -68,5 +63,11 @@
   .bgcarousel::before {
     display: none;
     background: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .slick-initialized {
+    height: 0px;
   }
 }
