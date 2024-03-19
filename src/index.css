@@ -59,3 +59,14 @@
 .select-flag button:focus {
   border: 2px solid rgb(76, 51, 152);
 }
+
+.select-flag ul {
+  z-index: 10;
+}
+
+@media (max-width: 768px) {
+  .bgcarousel::before {
+    display: none;
+    background: none;
+  }
+}

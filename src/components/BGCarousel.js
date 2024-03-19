@@ -54,23 +54,20 @@ export default function BGCarousel() {
   ];
 
   return (
-    <div className="bgcarousel overflow-hidden h-[500px] relative">
-      <div className="w-full block ">
+    <div className="bgcarousel overflow-hidden h-40 md:h-[500px] relative">
+      <div className="w-full block">
         <Slider {...settings}>
           {slidesData.map((slide) => (
             <div key={slide.id}>
               <div
-                style={{
-                  height: "500px",
-                  backgroundSize: "cover",
-                  backgroundImage: slide.image,
-                }}
+                className="h-0 md:h-[500px] bg-cover  "
+                style={{ backgroundImage: slide.image }}
               ></div>
             </div>
           ))}
         </Slider>
-        <div className="container flex justify-between items-center absolute top-0 left-1/2 -translate-x-1/2 h-full z-20">
-          <div className="pl-4">
+        <div className="container flex md:justify-between md:items-center absolute top-0 left-1/2 -translate-x-1/2 h-full z-20">
+          <div className="hidden md:block pl-4">
             <img
               className="h-[180px] w-[180px]"
               alt=""
@@ -80,14 +77,14 @@ export default function BGCarousel() {
               Dakikalar içinde kapında
             </h1>
           </div>
-          <div className="w-[400px] rounded-lg bg-gray-50 p-6">
+          <div className=" w-full md:w-[400px]  rounded-lg bg-gray-50  md:p-5">
             <h1
-              className="text-center font-semibold"
+              className="text-center font-semibold pt-6 md:pt-0 pb-3"
               style={{ color: "rgb(76, 51, 152)" }}
             >
               Giriş yap veya kayıt ol
             </h1>
-            <div className="flex ">
+            <div className="flex px-3 md:px-0">
               <ReactFlagsSelect
                 className="select-flag"
                 countries={["TR", "US", "GB", "FR", "DE", "IT", "NL", "ES"]}
