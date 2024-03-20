@@ -54,48 +54,47 @@ export default function BGCarousel() {
   ];
 
   return (
-    <div className="bgcarousel md:overflow-hidden h-auto md:h-[500px] md:relative">
-      <div className="w-full block">
-        <Slider {...settings}>
-          {slidesData.map((slide) => (
-            <div key={slide.id}>
-              <div
-                className="h-0 md:h-[500px] bg-cover  "
-                style={{ backgroundImage: slide.image }}
-              ></div>
-            </div>
-          ))}
-        </Slider>
-        <div className="container flex md:justify-between md:items-center md:absolute md:top-0 md:left-1/2 md:-translate-x-1/2 md:h-full z-20">
-          <div className="hidden md:block md:pl-4 ">
-            <img
-              className="h-[180px] w-[180px]"
-              alt=""
-              src="https://getir.com/_next/static/images/bimutluluk-b3a7fcb14fc9a9c09b60d7dc9b1b8fd6.svg"
-            />
-            <h1 className="mt-9  text-white text-4xl font-semibold ">
-              Dakikalar içinde kapında
-            </h1>
-          </div>
-          <div className=" w-full md:w-[400px]  md:rounded-lg bg-gray-50  px-5 py-5 md:mr-4">
-            <h1
-              className="text-center font-semibold pb-2 md:pb-4"
-              style={{ color: "rgb(76, 51, 152)" }}
-            >
-              Giriş yap veya kayıt ol
-            </h1>
-            <div className="flex px-3 md:px-0">
-              <ReactFlagsSelect
-                className="select-flag"
-                countries={["TR", "US", "GB", "FR", "DE", "IT", "NL", "ES"]}
-                customLabels={ulkeKod}
-                selected={selected}
-                onSelect={(code) => setSelected(code)}
+    <>
+      <div className="bgcarousel md:overflow-hidden h-auto md:h-[500px] md:relative">
+        <div className="w-full block">
+          <Slider {...settings}>
+            {slidesData.map((slide) => (
+              <div key={slide.id}>
+                <div
+                  className="h-0 md:h-[500px] bg-cover  "
+                  style={{ backgroundImage: slide.image }}
+                ></div>
+              </div>
+            ))}
+          </Slider>
+          <div className="container flex md:justify-between md:items-center md:absolute md:top-0 md:left-1/2 md:-translate-x-1/2 md:h-full z-20">
+            <div className="hidden md:block md:pl-4 ">
+              <img
+                className="h-[180px] w-[180px]"
+                alt=""
+                src="https://getir.com/_next/static/images/bimutluluk-b3a7fcb14fc9a9c09b60d7dc9b1b8fd6.svg"
               />
+              <h1 className="mt-9  text-white text-4xl font-semibold ">
+                Dakikalar içinde kapında
+              </h1>
+            </div>
+            <div className=" w-full md:w-[400px]  md:rounded-lg bg-gray-50  px-5 py-5 md:mr-4">
+              <h1 className="text-center font-semibold pb-2 md:pb-4 text-[#4c3398]">
+                Giriş yap veya kayıt ol
+              </h1>
+              <div className="flex px-3 md:px-0">
+                <ReactFlagsSelect
+                  className="select-flag"
+                  countries={["TR", "US", "GB", "FR", "DE", "IT", "NL", "ES"]}
+                  customLabels={ulkeKod}
+                  selected={selected}
+                  onSelect={(code) => setSelected(code)}
+                />
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
