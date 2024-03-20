@@ -1,6 +1,7 @@
 import Download from "./components/Download";
 import Navbar from "./components/Navbar";
 import BGCarousel from "./components/BGCarousel";
+import Campain from "./components/Campain";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <BGCarousel />
       <Download />
+      <Campain/>
     </div>
   );
 }
