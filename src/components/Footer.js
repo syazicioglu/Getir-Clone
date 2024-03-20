@@ -6,12 +6,21 @@ import { TbWorld } from "react-icons/tb";
 
 export default function Footer() {
   const [iconMouseEnter, setIconMouseEnter] = useState(null);
+  const [accordion, setAccordion] = useState(1);
+
+  function handleAccordion(e) {
+    if (accordion === e) {
+      setAccordion(0);
+    } else {
+      setAccordion(e);
+    }
+  }
 
   return (
     <>
       <footer className="footer md:shadow-sm">
         <nav className="pb-6 px-4 xl:px-0 shadow-sm md:shadow-none mb-px md:mb-0">
-          <div className="container mx-auto flex flex-col md:flex-row p-4 md:p-0 justify-stretch md:pt-11 gap-y-4 md:gap-y-0">
+          <div className="container mx-auto flex flex-col md:flex-row p-1 md:p-0 justify-stretch md:pt-11 gap-y-6 md:gap-y-0">
             <div className="flex-grow">
               <div className="text-lg text-[#5d3ebc] pb-4">Getir'i indir!</div>
               <ol className="flex flex-col gap-y-4">
@@ -48,8 +57,41 @@ export default function Footer() {
               </ol>
             </div>
             <div className="flex-grow">
-              <div className="text-lg text-[#5d3ebc] pb-4">Getir'i keşfet</div>
-              <ol className="flex flex-col gap-y-4 text-[14px]">
+              <div
+                className="text-lg text-[#5d3ebc] md:pb-4 flex justify-between"
+                onClick={() => handleAccordion(1)}
+              >
+                <div>Getir'i keşfet</div>
+                <div className="block md:hidden">{accordion === 1 ? 2 : 1}</div>
+              </div>
+              <ol
+                className={`${
+                  accordion === 1 ? "" : "hidden"
+                } md:hidden flex flex-col gap-y-4 text-[14px]`}
+              >
+                <li>
+                  <a href="#">Hakkımızda</a>
+                </li>
+                <li>
+                  <a href="#">Kariyer</a>
+                </li>
+                <li>
+                  <a href="#">Teknoloji Kariyerleri</a>
+                </li>
+                <li>
+                  <a href="#">İletişim</a>
+                </li>
+                <li>
+                  <a href="#">Sosyal Sorumluluk Projeleri</a>
+                </li>
+                <li>
+                  <a href="#">Basın Bültenleri</a>
+                </li>
+              </ol>
+              <ol
+                className="hidden
+                md:flex flex-col gap-y-4 text-[14px]"
+              >
                 <li>
                   <a href="#">Hakkımızda</a>
                 </li>
@@ -71,10 +113,41 @@ export default function Footer() {
               </ol>
             </div>
             <div className="flex-grow">
-              <div className="text-lg text-[#5d3ebc] pb-4">
-                Yardıma mı ihtiyacın var?
+              <div
+                className="text-lg text-[#5d3ebc] md:pb-4 flex justify-between"
+                onClick={() => handleAccordion(2)}
+              >
+                <div>Yardıma mı ihtiyacın var?</div>
+                <div className="block md:hidden">{accordion === 2 ? 2 : 1}</div>
               </div>
-              <ol className="flex flex-col gap-y-4 text-[14px]">
+              <ol
+                className={`${
+                  accordion === 2 ? "" : "hidden"
+                } md:hidden flex flex-col gap-y-4 text-[14px]`}
+              >
+                <li>
+                  <a href="#">Sıkça Sorulan Sorular</a>
+                </li>
+                <li>
+                  <a href="#">Kişisel Verilerin Korunması</a>
+                </li>
+                <li>
+                  <a href="#">Gizlilik Politikası</a>
+                </li>
+                <li>
+                  <a href="#">Kullanım Koşulları</a>
+                </li>
+                <li>
+                  <a href="#">Çerez Politikası</a>
+                </li>
+                <li>
+                  <a href="#">İşlem Rehberi</a>
+                </li>
+              </ol>
+              <ol
+                className="hidden
+                 md:flex flex-col gap-y-4 text-[14px]"
+              >
                 <li>
                   <a href="#">Sıkça Sorulan Sorular</a>
                 </li>
@@ -96,8 +169,38 @@ export default function Footer() {
               </ol>
             </div>
             <div className="flex-grow">
-              <div className="text-lg text-[#5d3ebc] pb-4">İş Ortağımız Ol</div>
-              <ol className="flex flex-col gap-y-4 text-[14px]">
+              <div
+                className="text-lg text-[#5d3ebc] md:pb-4 flex justify-between"
+                onClick={() => handleAccordion(3)}
+              >
+                <div>İş Ortağımız Ol</div>
+                <div className="block md:hidden">{accordion === 3 ? 2 : 1}</div>
+              </div>
+              <ol
+                className={`${
+                  accordion === 3 ? "" : "hidden"
+                } md:hidden flex flex-col gap-y-4 text-[14px]`}
+              >
+                <li>
+                  <a href="#">Bayimiz Olun</a>
+                </li>
+                <li>
+                  <a href="#">Deponu Kirala</a>
+                </li>
+                <li>
+                  <a href="#">GetirYemek Restoranı Ol</a>
+                </li>
+                <li>
+                  <a href="#">GetirÇarşı İşletmesi Ol</a>
+                </li>
+                <li>
+                  <a href="#">Zincir Restoranlar</a>
+                </li>
+              </ol>
+              <ol
+                className="hidden
+                 md:flex flex-col gap-y-4 text-[14px]"
+              >
                 <li>
                   <a href="#">Bayimiz Olun</a>
                 </li>
