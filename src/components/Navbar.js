@@ -12,7 +12,7 @@ import {
 export default function Navbar() {
   return (
     <>
-      <div className="navbar md:sticky top-0 z-50 px-2 md:px-0">
+      <div className="navbar md:sticky top-0 z-50 px-2 md:px-4 xl:px-0">
         <div className="container h-11 mx-auto items-center justify-between flex">
           <div className="flex cursor-pointer">
             <div className="priority rounded-t-md px-5 h-10 mt-1 items-center flex">

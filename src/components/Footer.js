@@ -249,7 +249,7 @@ export default function Footer() {
                 <ol className="flex flex-row gap-x-3">
                   <li>
                     <div
-                      className="p-1 rounded-lg hover:bg-[#dbdbff] transition-all"
+                      className="p-1 rounded-lg hover:bg-[#f3f0fe] transition-all"
                       onMouseEnter={() => setIconMouseEnter("Facebook")}
                       onMouseLeave={() => setIconMouseEnter(null)}
                     >
@@ -269,7 +269,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <div
-                      className="p-1 rounded-lg hover:bg-[#dbdbff] transition-all "
+                      className="p-1 rounded-lg hover:bg-[#f3f0fe] transition-all "
                       onMouseEnter={() => setIconMouseEnter("Twitter")}
                       onMouseLeave={() => setIconMouseEnter(null)}
                     >
@@ -289,7 +289,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <div
-                      className="p-1 rounded-lg hover:bg-[#dbdbff] transition-all "
+                      className="p-1 rounded-lg hover:bg-[#f3f0fe] transition-all "
                       onMouseEnter={() => setIconMouseEnter("Instagram")}
                       onMouseLeave={() => setIconMouseEnter(null)}
                     >
@@ -309,7 +309,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <div
-                      className=" border hover:border-[#dbdbff] rounded-lg p-1 hover:bg-[#dbdbff] text-[#697488] hover:text-[#7849f7] transition-all"
+                      className=" border hover:border-[#f3f0fe] rounded-lg p-1 hover:bg-[#f3f0fe] text-[#697488] hover:text-[#7849f7] transition-all"
                       onMouseEnter={() => setIconMouseEnter("Dunya")}
                       onMouseLeave={() => setIconMouseEnter(null)}
                     >

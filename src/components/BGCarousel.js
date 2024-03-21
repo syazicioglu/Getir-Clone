@@ -78,7 +78,7 @@ export default function BGCarousel() {
                 Dakikalar içinde kapında
               </h1>
             </div>
-            <div className=" w-full md:w-[400px]  md:rounded-lg bg-gray-50  px-5 py-5 md:mr-4">
+            <div className=" w-full md:w-[400px]  md:rounded-lg bg-[#f5f5f5] px-5 py-5 md:mr-4 shadow-sm">
               <h1 className="text-center font-semibold pb-2 md:pb-4 text-[#4c3398]">
                 Giriş yap veya kayıt ol
               </h1>

@@ -2,14 +2,14 @@ export default function Download() {
   return (
     <>
       <div className="download md:py-6 md:px-4 bg-[#fafafa]">
-        <div className="container overflow-hidden md:mx-auto md:items-center md:rounded-lg flex justify-between bg-none md:bg-[url('https://cdn.getir.com/getirweb-images/common/illustration/doodle.png')]">
+        <div className="container  overflow-hidden md:mx-auto md:items-center md:rounded-lg flex justify-between bg-none md:bg-[url('https://cdn.getir.com/getirweb-images/common/illustration/doodle.png')]">
           <div className="text-white p-4 md:p-12 flex-grow min-w-[600px]">
-            <h2 className=" text-3xl font-bold mb-3">Getir'i indir!</h2>
+            <h2 className=" text-3xl font-bold pb-3">Getir'i indir!</h2>
             <p className="font-semibold">
               İstediğiniz ürünleri dakikalar içinde kapınıza <br />
               getirelim.
             </p>
-            <div className="grid md:flex gap-y-2 gap-x-2 mt-3 md:mt-8">
+            <div className="grid md:flex gap-y-2 gap-x-2 mt-3 md:pt-7">
               <a href="#">
                 <img
                   alt=""
@@ -30,7 +30,7 @@ export default function Download() {
               </a>
             </div>
           </div>
-          <div className="hidden md:flex flex-shrink-0">
+          <div className="hidden md:flex flex-shrink-0 md:pt-8">
             <img
               className="w-[605px] h-auto"
               alt=""
