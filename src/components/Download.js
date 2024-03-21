@@ -2,8 +2,8 @@ export default function Download() {
   return (
     <>
       <div className="download md:py-6 md:px-4 bg-[#fafafa]">
-        <div className="container relative md:mx-auto md:items-center md:rounded-lg flex justify-between bg-none md:bg-[url('https://cdn.getir.com/getirweb-images/common/illustration/doodle.png')]">
-          <div className="text-white p-4 md:p-12 ">
+        <div className="container overflow-hidden md:mx-auto md:items-center md:rounded-lg flex justify-between bg-none md:bg-[url('https://cdn.getir.com/getirweb-images/common/illustration/doodle.png')]">
+          <div className="text-white p-4 md:p-12 flex-grow min-w-[600px]">
             <h2 className=" text-3xl font-bold mb-3">Getir'i indir!</h2>
             <p className="font-semibold">
               İstediğiniz ürünleri dakikalar içinde kapınıza <br />
@@ -30,11 +30,11 @@ export default function Download() {
               </a>
             </div>
           </div>
-          <div className="hidden md:flex">
+          <div className="hidden md:flex flex-shrink-0">
             <img
+              className="w-[605px] h-auto"
               alt=""
               src="https://cdn.getir.com/getirweb-images/common/landing/phoneLanding.png"
-              style={{ width: "605px", height: "288px" }}
             />
           </div>
         </div>

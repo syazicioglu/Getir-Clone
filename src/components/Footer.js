@@ -232,7 +232,7 @@ export default function Footer() {
           </div>
         </nav>
         <article>
-          <div className="container md:border-t py-6 mx-auto flex flex-col md:flex-row bg-[#fafafa] md:bg-white items-center gap-y-3">
+          <div className="container md:px-6 xl:px-0 md:border-t py-6 mx-auto flex flex-col md:flex-row bg-[#fafafa] md:bg-white items-center gap-y-3">
             <span className="text-gray-600 text-sm md:text-xs pr-3  my-auto">
               © 2024 Getir
             </span>
