@@ -1,9 +1,11 @@
+import Header from "../components/Header";
+
 function Category() {
-    return (
-        <div>
-            Abracromba
-        </div>
-    )
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
-export default Category
+export default Category;

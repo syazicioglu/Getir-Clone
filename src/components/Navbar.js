@@ -72,6 +72,9 @@ export default function Navbar() {
           </div>
         </div>
       </div>
+      <div className="media-only flex items-center justify-center md:hidden bg-[#5d3ebc] h-16 w-full">
+        <img className="priority-img h-[22px]" alt="" src={logoGetirLink} />
+      </div>
     </>
   );
 }
