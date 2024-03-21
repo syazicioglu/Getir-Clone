@@ -130,7 +130,7 @@ function Card({ img, children }) {
   return (
     <>
       <div className="primary-card rounded hover:text-[#5d3ebc] hover:bg-[#f3f0fe] transition-all">
-        <a href="#" className="flex flex-col">
+        <a href="/kategori" className="flex flex-col">
           <div className="rounded-lg block border w-[48px]  h-[48px] mx-auto overflow-hidden mt-2">
             <img className="w-[46px]  h-[46px]" src={img} alt="Content" />
           </div>

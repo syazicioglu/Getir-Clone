@@ -78,19 +78,31 @@ export default function BGCarousel() {
                 Dakikalar içinde kapında
               </h1>
             </div>
-            <div className=" w-full md:w-[400px]  md:rounded-lg bg-[#f5f5f5] px-5 py-5 md:mr-4 shadow-sm">
+            <div className=" w-full md:w-[400px]  md:rounded-lg bg-[#f5f5f5] md:bg-white px-5 py-5 md:mr-4 shadow-sm">
               <h1 className="text-center font-semibold pb-2 md:pb-4 text-[#4c3398]">
                 Giriş yap veya kayıt ol
               </h1>
-              <div className="flex px-3 md:px-0">
+              <div className="flex px-3 md:px-0 gap-x-2 ">
                 <ReactFlagsSelect
-                  className="select-flag"
+                  className="select-flag "
                   countries={["TR", "US", "GB", "FR", "DE", "IT", "NL", "ES"]}
                   customLabels={ulkeKod}
                   selected={selected}
                   onSelect={(code) => setSelected(code)}
                 />
+                <label className="flex-grow relative">
+                  <input
+                    required
+                    className="h-14 px-4 border-2 border-gray-300 rounded w-full bg-[#f5f5f5] md:bg-white transition-colors focus:border-[#4c3398] text-sm focus:outline-none pt-3 peer"
+                  />
+                  <span className="absolute top-0 left-0 h-full px-4 flex items-center text-gray-500 peer-focus:h-8 peer-focus:text-xs peer-valid:h-8 peer-valid:text-xs transition-all">
+                    Telefon Numarası
+                  </span>
+                </label>
               </div>
+              <button className="bg-[#ffd300] mt-3 h-12 flex items-center justify-center rounded-lg w-full md:text-sm font-semibold text-[#5d3ebc] hover:bg-[#7849f7] hover:text-[#ddf300] transition-colors">
+                Telefon numarası ile devam et
+              </button>
             </div>
           </div>
         </div>

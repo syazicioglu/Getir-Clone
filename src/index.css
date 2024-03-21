@@ -26,7 +26,7 @@ body {
   background-color: #5d3ebc;
 }
 
-.navbar img:not(.priorityImg) {
+.navbar img:not(.priority-img) {
   filter: brightness(0) invert(1);
   opacity: 0.8;
 }
@@ -51,8 +51,17 @@ body {
   z-index: 1;
 }
 
+.select-flag {
+  padding-bottom: 0px !important;
+}
+
 .select-flag button {
   border: 2px solid gainsboro;
+  height: 56px;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 .select-flag button:focus {

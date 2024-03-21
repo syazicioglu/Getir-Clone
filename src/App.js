@@ -4,17 +4,21 @@ import BGCarousel from "./components/BGCarousel";
 import Campain from "./components/Campain";
 import Footer from "./components/Footer";
 import Categories from "./components/Categories";
+import Home from "./pages/Home";
+import { Routes, Route } from "react-router-dom";
+import Category from "./pages/Category";
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
-      <BGCarousel />
-      <Categories />
-      <Download />
-      <Campain />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/kategori" element={<Category />} />
+      </Routes>
       <Footer />
-    </div>
+    </>
   );
 }
 
