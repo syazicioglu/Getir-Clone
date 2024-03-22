@@ -3,10 +3,9 @@ import Navbar from "./components/Navbar";
 import BGCarousel from "./components/BGCarousel";
 import Campain from "./components/Campain";
 import Footer from "./components/Footer";
-import Categories from "./components/Categories";
 import Home from "./pages/Home";
 import { Routes, Route } from "react-router-dom";
-import Category from "./pages/Category";
+import CategoryPage from "./pages/CategoryPage";
 
 function App() {
   return (
@@ -15,7 +14,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/kategori" element={<Category />} />
+        <Route path="/kategori" element={<CategoryPage />} />
       </Routes>
       <Footer />
     </>

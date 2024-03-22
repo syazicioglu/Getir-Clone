@@ -1,7 +1,7 @@
-export default function Categories() {
+export default function CategoriesHome() {
   return (
     <>
-      <div className="categories py-6 shadow-etbis bg-[#f0f1f3] md:bg-white">
+      <div className="home-categories py-6 shadow-etbis bg-[#f0f1f3] md:bg-white">
         <div className="container mx-auto">
           <h6 className="font-semibold md:text-sm pl-6 xl:pl-0 pb-2">
             Kategoriler
