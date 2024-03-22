@@ -8,8 +8,18 @@ import {
   logoGetirSuLink,
   logoGetirYemekLink,
 } from "../URLs";
+import LoginModal from "../modals/LoginModal";
+import Modal from "../modals/Modal";
+import RegisterModal from "../modals/RegisterModal";
+import { useState } from "react";
 
-export default function Navbar() {
+export default function Navbar({ modalOpen, setModalOpen }) {
+  const [modalContent, setModalContent] = useState(null);
+
+  const openModal = (content) => {
+    setModalContent(content);
+    setModalOpen(true);
+  };
   return (
     <>
       <div className="navbar md:sticky top-0 z-50 px-2 md:px-4 xl:px-0">
@@ -47,34 +57,34 @@ export default function Navbar() {
               />
             </div>
           </div>
-          <div className="navIcon flex h-full ">
-            <a
-              href="#"
-              className="hidden md:flex items-center px-4 h-full font-normal gap-x-3"
-            >
+          <div className="nav-icon flex h-full ">
+            <button className="hidden md:flex items-center px-4 h-full font-normal gap-x-3">
               <TbWorld size={20} />
               <span className="hidden lg:flex">Türkçe (TR)</span>
-            </a>
-            <a
-              href="#"
+            </button>
+            <button
+              onClick={() => openModal(<LoginModal />)}
               className="hidden md:flex items-center px-4 h-full font-semibold gap-x-3"
             >
               <BsFillPersonFill size={20} />
               <span className="hidden lg:flex">Giriş Yap</span>
-            </a>
-            <a
-              href="#"
+            </button>
+            <button
+              onClick={() => openModal(<RegisterModal />)}
               className="hidden md:flex items-center px-4 h-full font-semibold gap-x-3"
             >
               <BsFillPersonPlusFill size={20} />
               <span className="hidden lg:flex">Kayıt Ol</span>
-            </a>
+            </button>
           </div>
         </div>
       </div>
       <div className="media-only flex items-center justify-center md:hidden bg-[#5d3ebc] h-16 w-full">
         <img className="priority-img h-[22px]" alt="" src={logoGetirLink} />
       </div>
+      <Modal open={modalOpen} onClose={() => setModalOpen(false)}>
+        {modalContent}
+      </Modal>
     </>
   );
 }
