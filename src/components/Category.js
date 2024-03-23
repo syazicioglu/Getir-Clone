@@ -86,7 +86,7 @@ export default function Category() {
 function Product() {
   return (
     <>
-      <div className="flex flex-col p-2 text-center bg-[#ffffff]">
+      <div className="flex flex-col p-2 text-center bg-[#ffffff] relative">
         <img
           alt="product-img"
           className="w-28 h-28 mx-auto"
@@ -95,6 +95,7 @@ function Product() {
         <h2 className="price text font-semibold text-[#5d3ebc]">$12,99</h2>
         <h1 className="product-name font-semibold">Mandalina</h1>
         <span className="text-xs">kilo</span>
+        <a className="absolute top-0 right-20">a</a>
       </div>
     </>
   );

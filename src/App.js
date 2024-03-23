@@ -3,8 +3,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import { Routes, Route } from "react-router-dom";
 import CategoryPage from "./pages/CategoryPage";
-import Modal from "./modals/Modal";
-import LoginModal from "./modals/LoginModal";
+
 import { useState } from "react";
 
 function App() {
