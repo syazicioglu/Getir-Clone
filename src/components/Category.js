@@ -95,7 +95,9 @@ function Product() {
         <h2 className="price text font-semibold text-[#5d3ebc]">$12,99</h2>
         <h1 className="product-name font-semibold">Mandalina</h1>
         <span className="text-xs">kilo</span>
-        <a className="absolute top-0 right-20">a</a>
+        <div className="absolute top-3 right-3 bg-whit border shadow-md rounded-lg w-8 h-8 text-xl text-[#5d3ebc] cursor-pointer">
+          +
+        </div>
       </div>
     </>
   );

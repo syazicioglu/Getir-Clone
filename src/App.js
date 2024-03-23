@@ -8,16 +8,32 @@ import { useState } from "react";
 
 function App() {
   const [modalOpen, setModalOpen] = useState(false);
+  const [user, setUser] = useState("");
   return (
     <>
-      <Navbar modalOpen={modalOpen} setModalOpen={setModalOpen} />
+      <Navbar
+        modalOpen={modalOpen}
+        setModalOpen={setModalOpen}
+        user={user}
+        setUser={setUser}
+      />
 
       <Routes>
         <Route
           path="/"
-          element={<Home modalOpen={modalOpen} setModalOpen={setModalOpen} />}
+          element={
+            <Home
+              modalOpen={modalOpen}
+              setModalOpen={setModalOpen}
+              user={user}
+              setUser={setUser}
+            />
+          }
         />
-        <Route path="/kategori" element={<CategoryPage />} />
+        <Route
+          path="/kategori"
+          element={<CategoryPage user={user} setUser={setUser} />}
+        />
       </Routes>
       <Footer />
     </>

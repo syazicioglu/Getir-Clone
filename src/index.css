@@ -84,9 +84,6 @@ body {
   z-index: 10;
 }
 
-.iconwrapper svg:hover {
-}
-
 @media (max-width: 768px) {
   .bgcarousel::before {
     display: none;
@@ -117,7 +114,7 @@ body {
 
 .icon-wrapper {
   display: inline-block;
-  transition: transform 0.2s ease, color 0.2s ease;
+  transition: transform 0.25s ease, color 0.25s ease;
   color: #a2a2a2;
 }
 
@@ -126,12 +123,21 @@ body {
 }
 
 .icon-wrapper svg {
-  transition: transform 0.2s ease;
+  transition: transform 0.25s ease;
   transform-origin: center;
 }
 
 .icon-wrapper.selected svg {
   transform: rotate(180deg);
+}
+
+.nav-icon-wrapper svg {
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}
+
+.nav-icon-wrapper.selected svg {
+  transform: rotate(-180deg);
 }
 
 .right-arrow {

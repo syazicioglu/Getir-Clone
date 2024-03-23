@@ -1,8 +1,19 @@
 import { useState } from "react";
 import ReactFlagsSelect from "react-flags-select";
+import { useNavigate } from "react-router-dom";
 
-function Login() {
+function Login({ user, setUser, onClose }) {
   const [selected, setSelected] = useState("TR");
+
+  const navigate = useNavigate();
+
+  const [telefonNumarasi, setTelefonNumarasi] = useState("");
+
+  function handleLoginButton() {
+    setUser(`${telefonNumarasi}`);
+    onClose();
+    navigate("/kategori");
+  }
 
   const ulkeKod = {
     TR: "+90",
@@ -32,14 +43,19 @@ function Login() {
             <label className="flex-grow relative">
               <input
                 required
+                type="text"
                 className="h-14 px-4 border-2 border-gray-300 rounded w-full bg-[#f5f5f5] md:bg-white transition-colors focus:border-[#4c3398] text-sm focus:outline-none pt-3 peer"
+                onChange={(e) => setTelefonNumarasi(e.target.value)}
               />
               <span className="absolute top-0 left-0 h-full px-4 flex items-center text-gray-500 peer-focus:h-8 peer-focus:text-xs peer-focus:text-[#5d3ebc] peer-valid:text-[#5d3ebc] peer-valid:h-8 peer-valid:text-xs transition-all">
                 Telefon Numarası
               </span>
             </label>
           </div>
-          <button className="bg-[#ffd300] mt-3 h-12 flex items-center justify-center rounded-lg w-full md:text-sm font-semibold text-[#5d3ebc] hover:bg-[#7849f7] hover:text-[#ddf300] transition-colors">
+          <button
+            onClick={() => handleLoginButton()}
+            className="bg-[#ffd300] mt-3 h-12 flex items-center justify-center rounded-lg w-full md:text-sm font-semibold text-[#5d3ebc] hover:bg-[#7849f7] hover:text-[#ddf300] transition-colors"
+          >
             Telefon numarası ile devam et
           </button>
           <span className="text-xs my-3">
