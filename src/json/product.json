@@ -1,0 +1,442 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "img": "https://market-product-images-cdn.getirapi.com/category/f9b26950-a462-49b2-9536-e8a383194182.png",
+      "name": "Su & İçecek",
+      "normalizedName": "su-icecek",
+      "subCategories": [
+        {
+          "id": 101,
+          "name": "Su",
+          "products": [
+            { "id": 111, "name": "Kola", "price": 5.0 },
+            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
+            { "id": 111, "name": "Kola", "price": 5.0 },
+            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
+            { "id": 111, "name": "Kola", "price": 5.0 },
+            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
+            { "id": 111, "name": "Kola", "price": 5.0 },
+            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
+            { "id": 111, "name": "Kola", "price": 5.0 },
+            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
+            { "id": 111, "name": "Kola", "price": 5.0 },
+            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
+            { "id": 111, "name": "Kola", "price": 5.0 },
+            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
+            { "id": 111, "name": "Kola", "price": 5.0 },
+            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
+            { "id": 111, "name": "Kola", "price": 5.0 },
+            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
+            { "id": 111, "name": "Kola", "price": 5.0 },
+            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
+            { "id": 111, "name": "Kola", "price": 5.0 },
+            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
+            { "id": 111, "name": "Kola", "price": 5.0 },
+            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
+            { "id": 111, "name": "Kola", "price": 5.0 },
+            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
+            { "id": 111, "name": "Kola", "price": 5.0 },
+            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
+            { "id": 111, "name": "Kola", "price": 5.0 },
+            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
+            { "id": 111, "name": "Kola", "price": 5.0 },
+            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
+            { "id": 111, "name": "Kola", "price": 5.0 },
+            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
+            { "id": 111, "name": "Kola", "price": 5.0 },
+            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
+            { "id": 111, "name": "Kola", "price": 5.0 },
+            { "id": 112, "name": "Meyve Suyu", "price": 4.5 }
+          ]
+        },
+        {
+          "id": 102,
+          "name": "Buz",
+          "products": [
+            { "id": 121, "name": "Bira", "price": 10.0 },
+            { "id": 122, "name": "Şarap", "price": 25.0 },
+            { "id": 121, "name": "Bira", "price": 10.0 },
+            { "id": 122, "name": "Şarap", "price": 25.0 },
+            { "id": 121, "name": "Bira", "price": 10.0 },
+            { "id": 122, "name": "Şarap", "price": 25.0 },
+            { "id": 121, "name": "Bira", "price": 10.0 },
+            { "id": 122, "name": "Şarap", "price": 25.0 },
+            { "id": 121, "name": "Bira", "price": 10.0 },
+            { "id": 122, "name": "Şarap", "price": 25.0 },
+            { "id": 121, "name": "Bira", "price": 10.0 },
+            { "id": 122, "name": "Şarap", "price": 25.0 },
+            { "id": 121, "name": "Bira", "price": 10.0 },
+            { "id": 122, "name": "Şarap", "price": 25.0 },
+            { "id": 121, "name": "Bira", "price": 10.0 },
+            { "id": 122, "name": "Şarap", "price": 25.0 },
+            { "id": 121, "name": "Bira", "price": 10.0 },
+            { "id": 122, "name": "Şarap", "price": 25.0 },
+            { "id": 121, "name": "Bira", "price": 10.0 },
+            { "id": 122, "name": "Şarap", "price": 25.0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "img": "https://market-product-images-cdn.getirapi.com/category/13a7fc68-fc66-45fb-abf3-a9dfb299cfda.png",
+      "name": "Meyve & Sebze",
+      "normalizedName": "meyve-sebze",
+      "subCategories": [
+        {
+          "id": 201,
+          "name": "Meyve",
+          "products": [
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
+          ]
+        },
+        {
+          "id": 202,
+          "name": "Sebze",
+          "products": [
+            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "img": "https://market-product-images-cdn.getirapi.com/category/12234b89-0519-41d1-baf3-b70728620247.png",
+      "name": "Süt Ürünleri",
+      "normalizedName": "sut-urunleri",
+      "subCategories": [
+        {
+          "id": 201,
+          "name": "Meyve",
+          "products": [
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
+          ]
+        },
+        {
+          "id": 202,
+          "name": "Sebze",
+          "products": [
+            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "img": "https://market-product-images-cdn.getirapi.com/category/d3b6744b-1ebd-409f-8073-4cf17b97a8c7.png",
+      "name": "Fırından",
+      "normalizedName": "firindan",
+      "subCategories": [
+        {
+          "id": 201,
+          "name": "Meyve",
+          "products": [
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
+          ]
+        },
+        {
+          "id": 202,
+          "name": "Sebze",
+          "products": [
+            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "img": "https://market-product-images-cdn.getirapi.com/category/8443c38b-cc06-4997-a50d-92c4b3df9817.png",
+      "name": "Atıştırmalık",
+      "normalizedName": "atistirmalik",
+      "subCategories": [
+        {
+          "id": 201,
+          "name": "Meyve",
+          "products": [
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
+          ]
+        },
+        {
+          "id": 202,
+          "name": "Sebze",
+          "products": [
+            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "img": "https://market-product-images-cdn.getirapi.com/category/5d0c050c-fbc5-46db-b4dc-5f840759746d.png",
+      "name": "Dondurma",
+      "normalizedName": "dondurma",
+      "subCategories": [
+        {
+          "id": 201,
+          "name": "Meyve",
+          "products": [
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
+          ]
+        },
+        {
+          "id": 202,
+          "name": "Sebze",
+          "products": [
+            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "img": "https://market-product-images-cdn.getirapi.com/category/eb1f6a52-7efc-46d9-9712-33bfc3b37038.png",
+      "name": "Temel Gıda",
+      "normalizedName": "temel-gida",
+      "subCategories": [
+        {
+          "id": 201,
+          "name": "Meyve",
+          "products": [
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
+          ]
+        },
+        {
+          "id": 202,
+          "name": "Sebze",
+          "products": [
+            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "img": "https://market-product-images-cdn.getirapi.com/category/0f60725b-6743-4add-a3d4-98be568a53f7.png",
+      "name": "Kahvaltılık",
+      "normalizedName": "kahvaltilik",
+      "subCategories": [
+        {
+          "id": 201,
+          "name": "Meyve",
+          "products": [
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
+          ]
+        },
+        {
+          "id": 202,
+          "name": "Sebze",
+          "products": [
+            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "img": "https://market-product-images-cdn.getirapi.com/category/57f537f7-9973-4f94-87ef-47785c7d3f5b.png",
+      "name": "Yiyecek",
+      "normalizedName": "yiyecek",
+      "subCategories": [
+        {
+          "id": 201,
+          "name": "Meyve",
+          "products": [
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
+          ]
+        },
+        {
+          "id": 202,
+          "name": "Sebze",
+          "products": [
+            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "img": "https://market-product-images-cdn.getirapi.com/category/318d0c01-3251-4ddb-b19e-c87c4c800fea.png",
+      "name": "Fit & Form",
+      "normalizedName": "fit-form",
+      "subCategories": [
+        {
+          "id": 201,
+          "name": "Meyve",
+          "products": [
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
+          ]
+        },
+        {
+          "id": 202,
+          "name": "Sebze",
+          "products": [
+            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "img": "https://market-product-images-cdn.getirapi.com/category/eca31bbc-2a24-4c63-aa10-5671121f6589.png",
+      "name": "Kişisel Bakım",
+      "normalizedName": "kisisel-bakim",
+      "subCategories": [
+        {
+          "id": 201,
+          "name": "Meyve",
+          "products": [
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
+          ]
+        },
+        {
+          "id": 202,
+          "name": "Sebze",
+          "products": [
+            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "img": "https://market-product-images-cdn.getirapi.com/category/7a5243a7-2474-4f76-b656-43be6ea78702.png",
+      "name": "Ev Bakım",
+      "normalizedName": "ev-bakim",
+      "subCategories": [
+        {
+          "id": 201,
+          "name": "Meyve",
+          "products": [
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
+          ]
+        },
+        {
+          "id": 202,
+          "name": "Sebze",
+          "products": [
+            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "img": "https://market-product-images-cdn.getirapi.com/category/9f5cc306-280d-403a-8f8d-8d6fc0b0f5f8.png",
+      "name": "Ev & Yaşam",
+      "normalizedName": "ev-yasam",
+      "subCategories": [
+        {
+          "id": 201,
+          "name": "Meyve",
+          "products": [
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
+          ]
+        },
+        {
+          "id": 202,
+          "name": "Sebze",
+          "products": [
+            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "img": "https://market-product-images-cdn.getirapi.com/category/79427f37-be1c-44dc-beaf-ed1e5e9a8562.png",
+      "name": "Evcil Hayvan",
+      "normalizedName": "evcil-hayvan",
+      "subCategories": [
+        {
+          "id": 201,
+          "name": "Meyve",
+          "products": [
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
+          ]
+        },
+        {
+          "id": 202,
+          "name": "Sebze",
+          "products": [
+            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "img": "https://market-product-images-cdn.getirapi.com/category/c1c26b96-eb94-4fac-af51-777e26085826.png",
+      "name": "Bebek",
+      "normalizedName": "bebek",
+      "subCategories": [
+        {
+          "id": 201,
+          "name": "Meyve",
+          "products": [
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
+          ]
+        },
+        {
+          "id": 202,
+          "name": "Sebze",
+          "products": [
+            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "img": "https://market-product-images-cdn.getirapi.com/category/b429f164-16ca-40a7-acb1-0fce8b4d8838.png",
+      "name": "Cinsel Sağlık",
+      "normalizedName": "cinsel-saglik",
+      "subCategories": [
+        {
+          "id": 201,
+          "name": "Meyve",
+          "products": [
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
+          ]
+        },
+        {
+          "id": 202,
+          "name": "Sebze",
+          "products": [
+            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
+          ]
+        }
+      ]
+    }
+  ]
+}

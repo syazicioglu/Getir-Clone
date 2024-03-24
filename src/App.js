@@ -5,6 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import CategoryPage from "./pages/CategoryPage";
 
 import { useState } from "react";
+import ProfilePage from "./pages/ProfilePage";
 
 function App() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -31,8 +32,12 @@ function App() {
           }
         />
         <Route
-          path="/kategori"
+          path="/kategori/:categoryName"
           element={<CategoryPage user={user} setUser={setUser} />}
+        />
+        <Route
+          path="/hesap"
+          element={<ProfilePage user={user} setUser={setUser} />}
         />
       </Routes>
       <Footer />

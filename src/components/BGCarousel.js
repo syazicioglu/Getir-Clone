@@ -4,16 +4,22 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ReactFlagsSelect from "react-flags-select";
 import { useNavigate } from "react-router-dom";
+import userData from "../json/profiles.json";
 
 export default function BGCarousel({ user, setUser }) {
   const navigate = useNavigate();
 
   const [selected, setSelected] = useState("TR");
 
-  const [telefonNumarasi, setTelefonNumarasi] = useState("");
+  const [phone, setPhone] = useState("");
 
   function handleLoginButton() {
-    setUser(`${telefonNumarasi}`);
+    const findedProfile = userData.profiles.find(
+      (profil) => profil.phone === phone
+    );
+
+    findedProfile ? setUser(`${findedProfile.phone}`) : setUser("5555555555");
+
     navigate("/kategori");
   }
 
@@ -104,8 +110,9 @@ export default function BGCarousel({ user, setUser }) {
                   <input
                     required
                     type="text"
+                    maxlength="10"
                     className="h-14 px-4 border-2 border-gray-300 rounded w-full bg-[#f5f5f5] md:bg-white transition-colors focus:border-[#4c3398] text-sm focus:outline-none pt-3 peer"
-                    onChange={(e) => setTelefonNumarasi(e.target.value)}
+                    onChange={(e) => setPhone(e.target.value)}
                   />
                   <span className="absolute top-0 left-0 h-full px-4 flex items-center text-gray-500 peer-focus:h-8 peer-focus:text-xs peer-focus:text-[#5d3ebc] peer-valid:text-[#5d3ebc] peer-valid:h-8 peer-valid:text-xs transition-all">
                     Telefon Numarası

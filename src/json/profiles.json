@@ -1,0 +1,16 @@
+{
+  "profiles": [
+    {
+      "id": 1,
+      "phone": "5555555555",
+      "name": "Name",
+      "surname": "Surname"
+    },
+    {
+      "id": 2,
+      "phone": "5319187538",
+      "name": "Süleyman",
+      "surname": "Yazıcıoğlu"
+    }
+  ]
+}
