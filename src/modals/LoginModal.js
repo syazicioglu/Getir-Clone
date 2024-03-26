@@ -2,8 +2,11 @@ import { useState } from "react";
 import ReactFlagsSelect from "react-flags-select";
 import { useNavigate } from "react-router-dom";
 import userData from "../json/profiles.json";
+import productData from "../json/product.json";
 
 function Login({ user, setUser, onClose }) {
+  const subCategory = productData.categories[0].normalizedName;
+
   const [selected, setSelected] = useState("TR");
 
   const navigate = useNavigate();
@@ -16,7 +19,7 @@ function Login({ user, setUser, onClose }) {
     );
     findedProfile ? setUser(`${findedProfile.phone}`) : setUser("5555555555");
     onClose();
-    navigate("/kategori");
+    navigate(`/kategori/${subCategory}`);
   }
 
   const ulkeKod = {
@@ -48,7 +51,7 @@ function Login({ user, setUser, onClose }) {
               <input
                 required
                 type="text"
-                maxlength="10"
+                maxLength="10"
                 className="h-14 px-4 border-2 border-gray-300 rounded w-full bg-[#f5f5f5] md:bg-white transition-colors focus:border-[#4c3398] text-sm focus:outline-none pt-3 peer"
                 onChange={(e) => setPhone(e.target.value)}
               />

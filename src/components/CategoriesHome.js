@@ -10,7 +10,11 @@ export default function CategoriesHome() {
           </h6>
           <div className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-10 px-6 xl:px-0  gap-3 text-[#3e3e3e]">
             {categoriesData.categories.map((category) => (
-              <Card img={category.img} link={category.normalizedName}>
+              <Card
+                key={category.id}
+                img={category.img}
+                link={category.normalizedName}
+              >
                 {category.name}
               </Card>
             ))}

@@ -32,7 +32,7 @@ export default function Navbar({ modalOpen, setModalOpen, user, setUser }) {
         <div className="container h-10 md:h-11 mx-auto items-center justify-between flex">
           <div className="flex cursor-pointer">
             <div className="priority rounded-t-md px-3 md:px-5 h-10 mt-1 items-center flex">
-              <a href={user ? "/kategori" : "/"}>
+              <a href={user ? "/kategori/su-icecek" : "/"}>
                 <img
                   className="h-[14px] md:h-4 priority-img"
                   alt=""
@@ -77,9 +77,6 @@ export default function Navbar({ modalOpen, setModalOpen, user, setUser }) {
             />
           )}
         </div>
-      </div>
-      <div className="media-only flex items-center justify-center md:hidden bg-[#5d3ebc] h-16 w-full">
-        <img className="priority-img h-[22px]" alt="" src={logoGetirLink} />
       </div>
       <Modal
         open={modalOpen}

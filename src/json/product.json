@@ -10,70 +10,40 @@
           "id": 101,
           "name": "Su",
           "products": [
-            { "id": 111, "name": "Kola", "price": 5.0 },
-            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
-            { "id": 111, "name": "Kola", "price": 5.0 },
-            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
-            { "id": 111, "name": "Kola", "price": 5.0 },
-            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
-            { "id": 111, "name": "Kola", "price": 5.0 },
-            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
-            { "id": 111, "name": "Kola", "price": 5.0 },
-            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
-            { "id": 111, "name": "Kola", "price": 5.0 },
-            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
-            { "id": 111, "name": "Kola", "price": 5.0 },
-            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
-            { "id": 111, "name": "Kola", "price": 5.0 },
-            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
-            { "id": 111, "name": "Kola", "price": 5.0 },
-            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
-            { "id": 111, "name": "Kola", "price": 5.0 },
-            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
-            { "id": 111, "name": "Kola", "price": 5.0 },
-            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
-            { "id": 111, "name": "Kola", "price": 5.0 },
-            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
-            { "id": 111, "name": "Kola", "price": 5.0 },
-            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
-            { "id": 111, "name": "Kola", "price": 5.0 },
-            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
-            { "id": 111, "name": "Kola", "price": 5.0 },
-            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
-            { "id": 111, "name": "Kola", "price": 5.0 },
-            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
-            { "id": 111, "name": "Kola", "price": 5.0 },
-            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
-            { "id": 111, "name": "Kola", "price": 5.0 },
-            { "id": 112, "name": "Meyve Suyu", "price": 4.5 },
-            { "id": 111, "name": "Kola", "price": 5.0 },
-            { "id": 112, "name": "Meyve Suyu", "price": 4.5 }
+            { "id": 10111, "name": "Kola", "price": 5.0 },
+            { "id": 10112, "name": "Meyve Suyu", "price": 4.5 },
+            { "id": 10113, "name": "Kola", "price": 5.0 },
+            { "id": 10114, "name": "Meyve Suyu", "price": 4.5 },
+            { "id": 10115, "name": "Kola", "price": 5.0 },
+            { "id": 10116, "name": "Meyve Suyu", "price": 4.5 },
+            { "id": 10117, "name": "Kola", "price": 5.0 },
+            { "id": 10118, "name": "Meyve Suyu", "price": 4.5 },
+            { "id": 10119, "name": "Kola", "price": 5.0 },
+            { "id": 10120, "name": "Meyve Suyu", "price": 4.5 },
+            { "id": 10121, "name": "Kola", "price": 5.0 },
+            { "id": 10122, "name": "Meyve Suyu", "price": 4.5 },
+            { "id": 10123, "name": "Kola", "price": 5.0 },
+            { "id": 10124, "name": "Meyve Suyu", "price": 4.5 },
+            { "id": 10125, "name": "Kola", "price": 5.0 },
+            { "id": 10126, "name": "Meyve Suyu", "price": 4.5 }
           ]
         },
         {
           "id": 102,
           "name": "Buz",
           "products": [
-            { "id": 121, "name": "Bira", "price": 10.0 },
-            { "id": 122, "name": "Şarap", "price": 25.0 },
-            { "id": 121, "name": "Bira", "price": 10.0 },
-            { "id": 122, "name": "Şarap", "price": 25.0 },
-            { "id": 121, "name": "Bira", "price": 10.0 },
-            { "id": 122, "name": "Şarap", "price": 25.0 },
-            { "id": 121, "name": "Bira", "price": 10.0 },
-            { "id": 122, "name": "Şarap", "price": 25.0 },
-            { "id": 121, "name": "Bira", "price": 10.0 },
-            { "id": 122, "name": "Şarap", "price": 25.0 },
-            { "id": 121, "name": "Bira", "price": 10.0 },
-            { "id": 122, "name": "Şarap", "price": 25.0 },
-            { "id": 121, "name": "Bira", "price": 10.0 },
-            { "id": 122, "name": "Şarap", "price": 25.0 },
-            { "id": 121, "name": "Bira", "price": 10.0 },
-            { "id": 122, "name": "Şarap", "price": 25.0 },
-            { "id": 121, "name": "Bira", "price": 10.0 },
-            { "id": 122, "name": "Şarap", "price": 25.0 },
-            { "id": 121, "name": "Bira", "price": 10.0 },
-            { "id": 122, "name": "Şarap", "price": 25.0 }
+            { "id": 10201, "name": "Çay", "price": 10.0 },
+            { "id": 10202, "name": "Kahve", "price": 25.0 },
+            { "id": 10203, "name": "Çay", "price": 10.0 },
+            { "id": 10204, "name": "Kahve", "price": 25.0 },
+            { "id": 10205, "name": "Çay", "price": 10.0 },
+            { "id": 10206, "name": "Kahve", "price": 25.0 },
+            { "id": 10207, "name": "Çay", "price": 10.0 },
+            { "id": 10208, "name": "Kahve", "price": 25.0 },
+            { "id": 10209, "name": "Çay", "price": 10.0 },
+            { "id": 10210, "name": "Kahve", "price": 25.0 },
+            { "id": 10211, "name": "Çay", "price": 10.0 },
+            { "id": 10212, "name": "Kahve", "price": 25.0 }
           ]
         }
       ]
@@ -88,16 +58,96 @@
           "id": 201,
           "name": "Meyve",
           "products": [
-            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
-            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
+            { "id": 2011, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 2012, "name": "Mısır Cipsi", "price": 5.5 }
           ]
         },
         {
           "id": 202,
           "name": "Sebze",
           "products": [
-            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
-            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
+            { "id": 2021, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 2022, "name": "Bitter Çikolata", "price": 5.0 }
+          ]
+        },
+        {
+          "id": 203,
+          "name": "Meyve",
+          "products": [
+            { "id": 2031, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 2032, "name": "Mısır Cipsi", "price": 5.5 }
+          ]
+        },
+        {
+          "id": 204,
+          "name": "Sebze",
+          "products": [
+            { "id": 2041, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 2042, "name": "Bitter Çikolata", "price": 5.0 }
+          ]
+        },
+        {
+          "id": 205,
+          "name": "Meyve",
+          "products": [
+            { "id": 2051, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 2052, "name": "Mısır Cipsi", "price": 5.5 }
+          ]
+        },
+        {
+          "id": 206,
+          "name": "Sebze",
+          "products": [
+            { "id": 2061, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 2062, "name": "Bitter Çikolata", "price": 5.0 }
+          ]
+        },
+        {
+          "id": 207,
+          "name": "Meyve",
+          "products": [
+            { "id": 2071, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 2072, "name": "Mısır Cipsi", "price": 5.5 }
+          ]
+        },
+        {
+          "id": 208,
+          "name": "Sebze",
+          "products": [
+            { "id": 2081, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 2082, "name": "Bitter Çikolata", "price": 5.0 }
+          ]
+        },
+        {
+          "id": 209,
+          "name": "Meyve",
+          "products": [
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
+          ]
+        },
+        {
+          "id": 210,
+          "name": "Sebze",
+          "products": [
+            { "id": 2101, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 2102, "name": "Bitter Çikolata", "price": 5.0 }
+          ]
+        },
+        {
+          "id": 211,
+          "name": "Meyve",
+          "products": [
+            { "id": 2111, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 2112, "name": "Mısır Cipsi", "price": 5.5 }
+          ]
+        },
+        {
+          "id": 212,
+          "name": "Sebze",
+          "products": [
+            { "id": 2121, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 2122, "name": "Bitter Çikolata", "price": 5.0 }
           ]
         }
       ]
@@ -137,6 +187,8 @@
           "name": "Meyve",
           "products": [
             { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 },
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
             { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
           ]
         },
@@ -144,6 +196,8 @@
           "id": 202,
           "name": "Sebze",
           "products": [
+            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 },
             { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
             { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
           ]
@@ -161,6 +215,8 @@
           "name": "Meyve",
           "products": [
             { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 },
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
             { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
           ]
         },
@@ -168,6 +224,8 @@
           "id": 202,
           "name": "Sebze",
           "products": [
+            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 },
             { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
             { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
           ]
@@ -185,6 +243,8 @@
           "name": "Meyve",
           "products": [
             { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 },
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
             { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
           ]
         },
@@ -192,6 +252,8 @@
           "id": 202,
           "name": "Sebze",
           "products": [
+            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 },
             { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
             { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
           ]
@@ -209,6 +271,8 @@
           "name": "Meyve",
           "products": [
             { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 },
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
             { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
           ]
         },
@@ -216,6 +280,8 @@
           "id": 202,
           "name": "Sebze",
           "products": [
+            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 },
             { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
             { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
           ]
@@ -233,6 +299,8 @@
           "name": "Meyve",
           "products": [
             { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 },
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
             { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
           ]
         },
@@ -240,6 +308,8 @@
           "id": 202,
           "name": "Sebze",
           "products": [
+            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 },
             { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
             { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
           ]
@@ -257,6 +327,8 @@
           "name": "Meyve",
           "products": [
             { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 },
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
             { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
           ]
         },
@@ -264,6 +336,8 @@
           "id": 202,
           "name": "Sebze",
           "products": [
+            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 },
             { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
             { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
           ]
@@ -281,6 +355,8 @@
           "name": "Meyve",
           "products": [
             { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 },
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
             { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
           ]
         },
@@ -288,6 +364,8 @@
           "id": 202,
           "name": "Sebze",
           "products": [
+            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 },
             { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
             { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
           ]
@@ -305,6 +383,8 @@
           "name": "Meyve",
           "products": [
             { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 },
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
             { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
           ]
         },
@@ -312,6 +392,8 @@
           "id": 202,
           "name": "Sebze",
           "products": [
+            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 },
             { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
             { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
           ]
@@ -329,6 +411,8 @@
           "name": "Meyve",
           "products": [
             { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 },
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
             { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
           ]
         },
@@ -336,6 +420,8 @@
           "id": 202,
           "name": "Sebze",
           "products": [
+            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 },
             { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
             { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
           ]
@@ -353,6 +439,8 @@
           "name": "Meyve",
           "products": [
             { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 },
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
             { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
           ]
         },
@@ -360,6 +448,8 @@
           "id": 202,
           "name": "Sebze",
           "products": [
+            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 },
             { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
             { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
           ]
@@ -377,6 +467,8 @@
           "name": "Meyve",
           "products": [
             { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 },
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
             { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
           ]
         },
@@ -384,6 +476,8 @@
           "id": 202,
           "name": "Sebze",
           "products": [
+            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 },
             { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
             { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
           ]
@@ -401,6 +495,8 @@
           "name": "Meyve",
           "products": [
             { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 },
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
             { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
           ]
         },
@@ -408,6 +504,8 @@
           "id": 202,
           "name": "Sebze",
           "products": [
+            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 },
             { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
             { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
           ]
@@ -425,6 +523,8 @@
           "name": "Meyve",
           "products": [
             { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
+            { "id": 212, "name": "Mısır Cipsi", "price": 5.5 },
+            { "id": 211, "name": "Patates Cipsi", "price": 6.0 },
             { "id": 212, "name": "Mısır Cipsi", "price": 5.5 }
           ]
         },
@@ -432,6 +532,8 @@
           "id": 202,
           "name": "Sebze",
           "products": [
+            { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
+            { "id": 222, "name": "Bitter Çikolata", "price": 5.0 },
             { "id": 221, "name": "Sütlü Çikolata", "price": 4.0 },
             { "id": 222, "name": "Bitter Çikolata", "price": 5.0 }
           ]

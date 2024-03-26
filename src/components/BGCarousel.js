@@ -5,8 +5,11 @@ import "slick-carousel/slick/slick-theme.css";
 import ReactFlagsSelect from "react-flags-select";
 import { useNavigate } from "react-router-dom";
 import userData from "../json/profiles.json";
+import productData from "../json/product.json";
 
 export default function BGCarousel({ user, setUser }) {
+  const subCategory = productData.categories[0].normalizedName;
+
   const navigate = useNavigate();
 
   const [selected, setSelected] = useState("TR");
@@ -20,7 +23,7 @@ export default function BGCarousel({ user, setUser }) {
 
     findedProfile ? setUser(`${findedProfile.phone}`) : setUser("5555555555");
 
-    navigate("/kategori");
+    navigate(`/kategori/${subCategory}`);
   }
 
   const ulkeKod = {
@@ -110,7 +113,7 @@ export default function BGCarousel({ user, setUser }) {
                   <input
                     required
                     type="text"
-                    maxlength="10"
+                    maxLength="10"
                     className="h-14 px-4 border-2 border-gray-300 rounded w-full bg-[#f5f5f5] md:bg-white transition-colors focus:border-[#4c3398] text-sm focus:outline-none pt-3 peer"
                     onChange={(e) => setPhone(e.target.value)}
                   />
